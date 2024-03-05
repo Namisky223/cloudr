@@ -5,11 +5,8 @@ const authorSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  age: {
-    type: Number,
-    required: true
-  },
-  books: [
+
+  book: [
     {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Book'
