@@ -15,4 +15,4 @@ const publisherSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('Publisher', publisherSchema);
+PublisherModel = mongoose.model('Publisher', publisherSchema);
